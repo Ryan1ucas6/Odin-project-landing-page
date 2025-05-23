@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Landing Page</title>
 </head>
 
@@ -16,5 +16,51 @@
             <p>Contact</p>
             </div>
         </header>
-</body>
+
+        <section class="About">
+            <div class="About-main">
+            <h1 id="About-title">About Me</h1>
+            <P id="About-text">Hi, I'm Ryan Lucas - an aspiring programmer and this is my first project.</P>
+            <button id="Portfolio">My Portfolio</button>
+            </div>
+            <img id="aboutimg" src="me.jpeg" alt="Picture of a programmer">     
+        </section>
+
+        <section class="Roadmap">
+            <h1 id="Roadmap-title">My Roadmap</h1>
+        <div class="Roadmap-images">
+            <div class="step">
+            <img id="img1" src="ltc.jpeg" alt="Someone learning to code">
+            <p>1. Learn the fundamentals</p>
+            </div>
+            <div class="step">
+            <img id="img2" src="projects.jpeg" alt="Image of coding projects">
+            <p>2. Create projects</p>
+            </div>
+            <div class="step">
+            <img id="img3" src="job.jpg" alt="Illustration of coder at the officer">
+            <p>3. Land a job</p>
+            </div>
+        </div>
+        </section>
+
+        <section class="section-quote">
+            <p id="quote">Progress isn't about perfection - it's about momentum, and the courage to keep building.</p>
+            <p id="author">-ChatGPT</p>
+        </section>
+
+        <section id="Contact">
+        <h1>Contact Form</h1>
+        <input type="text" name="first" placeholder="First Name" autocomplete="off" required>            
+        <input type="text" name="last" placeholder="Last Name" autocomplete="off" required>
+        <input type="email" name="email" placeholder="Email adress" autocomplete="off" required>
+        <textarea rows="5" cols="60" name="message" placeholder="Enter text" autocomplete="off" required></textarea>
+        <button type="submit">Send message</button>
+
+        </section>
+
+        <footer>
+            <p>Copyright | Ryan Lucas 2025</p>
+        </footer>
+    </body>
 </html>
